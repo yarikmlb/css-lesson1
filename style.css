@@ -1,0 +1,22 @@
+p {
+    color: blue;
+}
+strong {
+    color: red;
+    text-decoration: underline;
+}
+.carrot {
+    color: orange;
+    text-decoration: none;
+}
+.spinach {
+    color: green;
+    text-decoration: none;
+}
+#first  {
+    font-style: italic;
+}
+#second strong {
+    text-decoration: none;
+}
+
