@@ -1,0 +1,18 @@
+body {
+    font: 16px "Comic Sans MS", cursive;
+}
+p {
+    color: blue;
+}
+#first {
+    font-style: italic;
+}
+strong {
+    background-color: #ddf;
+    color: red;
+    font: 200% serif;
+}
+.spinach {
+    color: green;
+    background-color: #ddf;
+}
