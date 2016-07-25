@@ -1,0 +1,27 @@
+body {
+    font: 16px "Comic Sans MS", cursive;
+    background: url("Blue-rule.png");
+}
+p {
+    color: rgb(0,0,255);
+}
+p:before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    background: url("Yellow-pin.png");
+    height: 25px;
+    margin-right: 10px;
+}
+#first {
+    font-style: italic;
+}
+strong {
+    background-color: rgb(221,221,255);
+    color: rgb(255,0,0);
+    font: 200% serif;
+}
+.spinach {
+    color: rgb(0,128,0);
+    background-color: rgb(221,221,255);
+}
