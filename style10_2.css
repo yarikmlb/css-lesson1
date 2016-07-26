@@ -1,0 +1,19 @@
+body {
+    counter-reset: mylet;
+}
+h3:before {
+    content: "(" counter(mylet, upper-latin) ") ";
+    counter-increment: mylet;
+}
+h3.numbered {
+    counter-reset: mynum;
+}
+p.numbered:before {
+    content: counter(mynum) ": ";
+    counter-increment: mynum;
+    font-weight: bold;
+}
+li {
+    list-style: lower-roman;
+    margin-bottom: 8px;
+}
