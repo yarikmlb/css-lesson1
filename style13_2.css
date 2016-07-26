@@ -14,11 +14,14 @@
 }
 #demo-table th,
 #demo-table td {
-    text-align: right;
-    padding-right: .5em;
+    border: solid #e0e0dc;
+    border-width: 0 1px 1px 0;
+    padding: 6px 8px;
+    text-align: left;
+    color: #4d4e53;
 }
 #demo-table th {
-    font-weight: bold;
+    font-weight: inherit;
     padding-left: .5em;
 }
 #demo-table > thead > tr:first-child > th {
@@ -45,6 +48,9 @@
 #demo-table tfoot th {
     color: blue;
 }
+#demo-table tfoot {
+    font-weight: normal;
+}
 #demo-table tfoot th:after {
     content: ":";
 }
@@ -56,11 +62,4 @@
 }
 #demo-table tbody td {
     border:1px solid #7a7;
-}
-#demo-table td,
-#demo-table th {
-    border: solid #e0e0dc;
-    border-width: 0 1px 1px 0;
-    padding: 6px 8px;
-    text-align: left;
 }
