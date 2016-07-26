@@ -1,0 +1,13 @@
+@import url("print14_2.css") print; /*** Print sample ***/
+
+/* defaults  for screen */
+#print-head,
+#print-foot {
+    display: none;
+}
+h1:hover {
+    color: blue;
+}
+
+/* print only */
+/* end print only */
