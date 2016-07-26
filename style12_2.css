@@ -1,0 +1,33 @@
+body {
+    counter-reset: mylet;
+}
+h3 {
+    border-top: 1px solid gray;
+}
+h3:before {
+    content: "(" counter(mylet, upper-latin) ") ";
+    counter-increment: mylet;
+}
+h3.numbered {
+    counter-reset: mynum;
+}
+p.numbered:before {
+    content: counter(mynum) ": ";
+    counter-increment: mynum;
+    font-weight: bold;
+}
+ul,
+#numbered {
+    border: 12px solid #69b;
+    float: left;
+    margin: 0;
+    padding-right: 0.5em;
+}
+li {
+    list-style: lower-roman;
+}
+#fixed-pin  {
+    position:fixed;
+    top: 3px;
+    left: 360px;
+}
